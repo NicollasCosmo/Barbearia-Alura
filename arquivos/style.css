@@ -69,6 +69,7 @@ nav a:hover  {
 .produtos li:hover {
 
     border-color: #C78C19;
+    cursor: pointer;
 
 }
 
@@ -80,7 +81,8 @@ nav a:hover  {
 
 .produtos li:hover h2 {
 
-    font-size: 34px;
+    font-size: 33px;
+    cursor: pointer;
 }
 
 
@@ -114,14 +116,11 @@ footer {
     margin: 20px 0 0;
 }
 
-main {
-
-    
-}
+/* css da página de contato */
 
 form {
 
-    margin: 40px 0;
+    margin: 40px 90px;
 }
 
 form label, form legend {
@@ -171,7 +170,7 @@ form label, form legend {
 
 table {
 
-    margin: 20px 0 40px;
+    margin: 20px 0 40px 90px;
 }
 
 thead {
@@ -323,7 +322,7 @@ td, th {
 
 @media screen and (max-width: 480px) {
 
-    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .produtos {
         width: auto;
     }
 
@@ -343,4 +342,53 @@ td, th {
         width: 100%;
 
     }
+
+    /* página de contato*/
+
+    .input-padrao {
+
+        padding: 10px 75px;
+        
+    }
+
+
+    form {
+
+        margin: 40px 10px 40px 20px;
+        width: auto;
+        
+       
+    }
+
+    form label, form legend {
+
+        font-size: 14px;
+    }
+
+    .enviar {
+
+        font-size: 14px;
+    }
+
+    table {
+
+        margin: 20px 20px;
+    }
+
+    /* página de podutos*/
+
+
+    .produtos {
+
+        text-align: center;
+    }
+
+    .produtos li {
+
+        display: block;
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    
 }
